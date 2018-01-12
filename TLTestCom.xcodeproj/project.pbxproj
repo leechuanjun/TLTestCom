@@ -15,7 +15,7 @@
 		7E5FB72F2007974F00C5EDE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5FB72E2007974F00C5EDE6 /* main.m */; };
 		7E5FB7392007974F00C5EDE6 /* TLTestComTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5FB7382007974F00C5EDE6 /* TLTestComTests.m */; };
 		7E5FB7442007974F00C5EDE6 /* TLTestComUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5FB7432007974F00C5EDE6 /* TLTestComUITests.m */; };
-		7E5FB754200797DA00C5EDE6 /* A_Catergory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5FB753200797DA00C5EDE6 /* A_Catergory.m */; };
+		7E5FB75C20079CF400C5EDE6 /* A_Catergory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5FB75B20079CF400C5EDE6 /* A_Catergory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		7E5FB73F2007974F00C5EDE6 /* TLTestComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLTestComUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5FB7432007974F00C5EDE6 /* TLTestComUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLTestComUITests.m; sourceTree = "<group>"; };
 		7E5FB7452007974F00C5EDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E5FB752200797DA00C5EDE6 /* A_Catergory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A_Catergory.h; sourceTree = "<group>"; };
-		7E5FB753200797DA00C5EDE6 /* A_Catergory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_Catergory.m; sourceTree = "<group>"; };
+		7E5FB75A20079CF400C5EDE6 /* A_Catergory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_Catergory.h; sourceTree = "<group>"; };
+		7E5FB75B20079CF400C5EDE6 /* A_Catergory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_Catergory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		7E5FB71E2007974F00C5EDE6 /* TLTestCom */ = {
 			isa = PBXGroup;
 			children = (
-				7E5FB751200797B300C5EDE6 /* TLComA */,
+				7E5FB75920079CF400C5EDE6 /* TLComA */,
 				7E5FB71F2007974F00C5EDE6 /* AppDelegate.h */,
 				7E5FB7202007974F00C5EDE6 /* AppDelegate.m */,
 				7E5FB7222007974F00C5EDE6 /* ViewController.h */,
@@ -136,11 +136,11 @@
 			path = TLTestComUITests;
 			sourceTree = "<group>";
 		};
-		7E5FB751200797B300C5EDE6 /* TLComA */ = {
+		7E5FB75920079CF400C5EDE6 /* TLComA */ = {
 			isa = PBXGroup;
 			children = (
-				7E5FB752200797DA00C5EDE6 /* A_Catergory.h */,
-				7E5FB753200797DA00C5EDE6 /* A_Catergory.m */,
+				7E5FB75A20079CF400C5EDE6 /* A_Catergory.h */,
+				7E5FB75B20079CF400C5EDE6 /* A_Catergory.m */,
 			);
 			path = TLComA;
 			sourceTree = SOURCE_ROOT;
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5FB754200797DA00C5EDE6 /* A_Catergory.m in Sources */,
+				7E5FB75C20079CF400C5EDE6 /* A_Catergory.m in Sources */,
 				7E5FB7242007974F00C5EDE6 /* ViewController.m in Sources */,
 				7E5FB72F2007974F00C5EDE6 /* main.m in Sources */,
 				7E5FB7212007974F00C5EDE6 /* AppDelegate.m in Sources */,
